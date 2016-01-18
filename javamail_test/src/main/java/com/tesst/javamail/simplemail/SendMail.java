@@ -34,7 +34,7 @@ public class SendMail {
 	        
 	          System.out.println(msg);
 	          msg.setFrom(new InternetAddress(""));   // Your mail id
-	          msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("chaudhari.ankit61@gmail.com", false));
+	          msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("chaudhari.ankit61@gmail.com", false));  // recipients mail id
 	          msg.setSubject("test");  //subbject of mail
 	          msg.setText("This is a test mail");  // message body
 	        
